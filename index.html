@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Talento y Empleabilidad - Desarrollamos talento para personas y empresas a través de mentorías, capacitación y consultoría estratégica en RRHH.">
+    <title>Talento y Empleabilidad | Dos caminos, un mismo propósito</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <svg width="50" height="50" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="45" fill="#f19d07"/>
+                        <path d="M30 35h40v8H30z" fill="#000"/>
+                        <path d="M45 43h10v25h-10z" fill="#000"/>
+                    </svg>
+                    <span>Talento y Empleabilidad</span>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#quienes-somos">Nosotros</a></li>
+                    <li><a href="#soluciones">Soluciones</a></li>
+                    <li><a href="#metodologia">Metodología</a></li>
+                    <li><a href="#equipo">Equipo</a></li>
+                    <li><a href="#impacto">Impacto Social</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Dos caminos, un mismo propósito: <span class="highlight">desarrollar talento.</span></h1>
+                <p class="hero-subtitle">Transformamos personas y organizaciones a través de estrategias personalizadas de desarrollo, empleabilidad y gestión del talento humano.</p>
+                
+                <div class="hero-paths">
+                    <div class="path-card" data-path="personas">
+                        <div class="path-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h3>Personas</h3>
+                        <p>Impulsa tu desarrollo profesional y empleabilidad</p>
+                        <a href="#soluciones-personas" class="btn btn-primary">Quiero impulsar mi empleabilidad</a>
+                    </div>
+                    
+                    <div class="path-card" data-path="empresas">
+                        <div class="path-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Empresas</h3>
+                        <p>Optimiza la gestión y desarrollo del talento en tu organización</p>
+                        <a href="#soluciones-empresas" class="btn btn-secondary">Busco soluciones para mi empresa</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiénes Somos -->
+    <section class="about" id="quienes-somos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01.</span>
+                <h2 class="section-title">¿Quiénes Somos?</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">Somos una consultora especializada en gestión del talento humano y empleabilidad, comprometida con el desarrollo integral de personas y organizaciones.</p>
+                    <p>Combinamos experiencia estratégica con un enfoque humano y cercano, utilizando metodologías validadas científicamente para garantizar resultados sostenibles y medibles.</p>
+                    <p>Nuestro equipo multidisciplinario trabaja con pasión y profesionalismo para crear soluciones personalizadas que generen impacto real en la vida de las personas y el éxito de las empresas.</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Misión, Visión, Valores -->
+    <section class="mvv">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02.</span>
+                <h2 class="section-title">Nuestros Pilares</h2>
+            </div>
+            <div class="mvv-grid">
+                <div class="mvv-card">
+                    <div class="mvv-icon">
+                        <i class="fas fa-compass"></i>
+                    </div>
+                    <h3>Misión</h3>
+                    <p>Potenciar el talento humano mediante soluciones estratégicas e innovadoras que impulsen el desarrollo profesional de las personas y la competitividad de las organizaciones, contribuyendo al crecimiento económico y social sostenible.</p>
+                </div>
+                
+                <div class="mvv-card">
+                    <div class="mvv-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Visión</h3>
+                    <p>Ser la consultora líder en gestión del talento y empleabilidad, reconocida por nuestra excelencia, compromiso social y capacidad de transformar vidas y organizaciones a través de procesos éticos, científicos y humanizados.</p>
+                </div>
+                
+                <div class="mvv-card">
+                    <div class="mvv-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Valores</h3>
+                    <ul class="values-list">
+                        <li><i class="fas fa-check"></i> Profesionalismo</li>
+                        <li><i class="fas fa-check"></i> Integridad y ética</li>
+                        <li><i class="fas fa-check"></i> Responsabilidad social</li>
+                        <li><i class="fas fa-check"></i> Cercanía humana</li>
+                        <li><i class="fas fa-check"></i> Excelencia y calidad</li>
+                        <li><i class="fas fa-check"></i> Innovación continua</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nuestro Equipo -->
+    <section class="team" id="equipo">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03.</span>
+                <h2 class="section-title">Nuestro Equipo</h2>
+            </div>
+            <p class="section-description">Profesionales comprometidos con tu desarrollo</p>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div class="photo-placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Miembro 1</h3>
+                        <p class="member-role">Director/a de Consultoría</p>
+                        <p class="member-bio">Experto/a en gestión del talento con más de 15 años de experiencia en consultoría estratégica y desarrollo organizacional.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div class="photo-placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Miembro 2</h3>
+                        <p class="member-role">Especialista en Empleabilidad</p>
+                        <p class="member-bio">Psicólogo/a organizacional especializado/a en mentoring, desarrollo de carrera y programas de empleabilidad.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div class="photo-placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Miembro 3</h3>
+                        <p class="member-role">Consultor/a Senior RRHH</p>
+                        <p class="member-bio">Especialista en selección de talento, outplacement y diseño de programas de capacitación empresarial.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soluciones para Personas -->
+    <section class="solutions solutions-personas" id="soluciones-personas">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04.</span>
+                <h2 class="section-title">Soluciones para Personas</h2>
+            </div>
+            <p class="section-description">Impulsa tu desarrollo profesional y empleabilidad</p>
+            
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Mentorías Personalizadas</h3>
+                    <p>Acompañamiento uno a uno con expertos que te guiarán en tu desarrollo profesional, búsqueda de empleo y crecimiento de carrera.</p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check-circle"></i> Sesiones individuales</li>
+                        <li><i class="fas fa-check-circle"></i> Plan personalizado</li>
+                        <li><i class="fas fa-check-circle"></i> Seguimiento continuo</li>
+                    </ul>
+                </div>
+                
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Talento Academy - Personas</h3>
+                    <p>Programas de formación diseñados para potenciar tus habilidades técnicas, blandas y de empleabilidad.</p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check-circle"></i> Talleres prácticos</li>
+                        <li><i class="fas fa-check-circle"></i> Certificación</li>
+                        <li><i class="fas fa-check-circle"></i> Herramientas aplicables</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soluciones para Empresas -->
+    <section class="solutions solutions-empresas" id="soluciones-empresas">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05.</span>
+                <h2 class="section-title">Soluciones para Empresas</h2>
+            </div>
+            <p class="section-description">Optimiza la gestión del talento en tu organización</p>
+            
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Gestión de Talento</h3>
+                    <p>Consultoría integral en procesos de selección, evaluación y desarrollo del talento humano.</p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check-circle"></i> Selección por competencias</li>
+                        <li><i class="fas fa-check-circle"></i> Evaluación de desempeño</li>
+                        <li><i class="fas fa-check-circle"></i> Planes de desarrollo</li>
+                    </ul>
+                </div>
+                
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Academy Empresas</h3>
+                    <p>Programas de capacitación corporativa diseñados a medida para potenciar las competencias de tus equipos.</p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check-circle"></i> Formación in-company</li>
+                        <li><i class="fas fa-check-circle"></i> Contenidos personalizados</li>
+                        <li><i class="fas fa-check-circle"></i> Metodología práctica</li>
+                    </ul>
+                </div>
+                
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Outplacement</h3>
+                    <p>Programas de transición de carrera que facilitan la reubicación laboral de colaboradores en procesos de desvinculación.</p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check-circle"></i> Apoyo emocional</li>
+                        <li><i class="fas fa-check-circle"></i> Reorientación profesional</li>
+                        <li><i class="fas fa-check-circle"></i> Conexión con oportunidades</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metodología y ODS -->
+    <section class="methodology" id="metodologia">
+        <div class="container">
+            <div class="section-header-light">
+                <span class="section-number-light">06.</span>
+                <h2 class="section-title-light">Metodología de Selección</h2>
+            </div>
+            
+            <div class="methodology-content">
+                <p class="methodology-intro">Nuestro enfoque es implementar procesos de selección basados en técnicas, herramientas y metodologías científicamente validadas, garantizando un ajuste cultural y organizacional óptimo entre los candidatos y las empresas.</p>
+                <p class="methodology-highlight">Promovemos los <strong>Objetivos de Desarrollo Sostenible (ODS)</strong> en cada etapa de nuestros procesos.</p>
+            </div>
+            
+            <div class="ods-container">
+                <h3 class="ods-title">Nuestro Compromiso con los ODS</h3>
+                
+                <div class="ods-grid">
+                    <div class="ods-card">
+                        <div class="ods-number">8</div>
+                        <div class="ods-content">
+                            <h4>Trabajo Decente y Crecimiento Económico</h4>
+                            <p>Promoción del trabajo decente y crecimiento económico mediante procesos de selección que dignifican el empleo y potencian el desarrollo profesional.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="ods-card">
+                        <div class="ods-number">5</div>
+                        <div class="ods-content">
+                            <h4>Igualdad de Género</h4>
+                            <p>Fomentamos la inclusión y equidad de género en todos nuestros procesos, eliminando sesgos y promoviendo la diversidad en las organizaciones.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="ods-card">
+                        <div class="ods-number">10</div>
+                        <div class="ods-content">
+                            <h4>Reducción de las Desigualdades</h4>
+                            <p>Garantizamos procesos justos y transparentes que reducen las desigualdades, ofreciendo oportunidades equitativas para todos los candidatos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="methodology-features">
+                <div class="feature-item">
+                    <i class="fas fa-microscope"></i>
+                    <span>Técnicas científicamente validadas</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Evaluación por competencias</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-balance-scale"></i>
+                    <span>Procesos éticos y transparentes</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <span>Ajuste cultural organizacional</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nuestro Enfoque -->
+    <section class="approach">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">07.</span>
+                <h2 class="section-title">Nuestro Enfoque</h2>
+            </div>
+            
+            <div class="approach-grid">
+                <div class="approach-item">
+                    <div class="check-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="approach-content">
+                        <h3>Humano y cercano</h3>
+                        <p>Priorizamos las relaciones genuinas y el trato personalizado en cada interacción.</p>
+                    </div>
+                </div>
+                
+                <div class="approach-item">
+                    <div class="check-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="approach-content">
+                        <h3>Estratégico y orientado al negocio</h3>
+                        <p>Alineamos nuestras soluciones con los objetivos estratégicos de tu organización.</p>
+                    </div>
+                </div>
+                
+                <div class="approach-item">
+                    <div class="check-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="approach-content">
+                        <h3>Metodología práctica</h3>
+                        <p>Implementamos herramientas y procesos aplicables que generan resultados medibles.</p>
+                    </div>
+                </div>
+                
+                <div class="approach-item">
+                    <div class="check-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="approach-content">
+                        <h3>Acompañamiento personalizado</h3>
+                        <p>Estamos contigo en cada etapa del proceso, adaptándonos a tus necesidades específicas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impacto Social -->
+    <section class="social-impact" id="impacto">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">08.</span>
+                <h2 class="section-title">Impacto Social</h2>
+            </div>
+            <p class="section-description">Comprometidos con la transformación social a través del desarrollo del talento</p>
+            
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-venus"></i>
+                    </div>
+                    <h3>Empleabilidad Femenina</h3>
+                    <p>Programas especializados para impulsar la inserción y desarrollo laboral de mujeres en diversos sectores.</p>
+                </div>
+                
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-redo-alt"></i>
+                    </div>
+                    <h3>Reinserción Laboral</h3>
+                    <p>Acompañamiento integral para personas que buscan reintegrarse al mercado laboral después de períodos de inactividad.</p>
+                </div>
+                
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Mujeres Emprendedoras</h3>
+                    <p>Formación y mentoría para mujeres que emprenden, fortaleciendo sus capacidades de gestión y liderazgo.</p>
+                </div>
+                
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Comunidades con Acceso Limitado</h3>
+                    <p>Iniciativas de desarrollo de talento en comunidades vulnerables, promoviendo la equidad de oportunidades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Podcast -->
+    <section class="podcast">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">09.</span>
+                <h2 class="section-title">Podcast: Hablemos de Talento y Empleabilidad</h2>
+            </div>
+            <p class="section-description">Conversaciones inspiradoras sobre desarrollo profesional, gestión del talento y tendencias del mercado laboral</p>
+            
+            <div class="podcast-content">
+                <div class="podcast-player">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed?listType=user_uploads&list=@hablemosdetalentoyempleabilida" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="podcast-cta">
+                    <a href="https://youtube.com/@hablemosdetalentoyempleabilida" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-youtube"></i> Escucha nuestro podcast
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="final-cta">
+        <div class="container">
+            <h2 class="cta-title">El talento bien gestionado <span class="highlight">transforma personas y organizaciones.</span></h2>
+            <p class="cta-subtitle">Comienza tu transformación hoy</p>
+            
+            <div class="cta-buttons">
+                <a href="#contacto" class="btn btn-primary btn-large">
+                    <i class="fas fa-calendar-check"></i> Agendar mentoría
+                </a>
+                <a href="#contacto" class="btn btn-secondary btn-large">
+                    <i class="fas fa-file-contract"></i> Solicitar propuesta
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">10.</span>
+                <h2 class="section-title">Contáctanos</h2>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Estamos aquí para ayudarte</h3>
+                    <p>Escríbenos y te responderemos a la brevedad posible.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@talentoyempleabilidad.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+591 123 456 789</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>La Paz, Bolivia</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/talentoyempleabilidad.bo" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/share/14LireoQywL" target="_blank" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://youtube.com/@hablemosdetalentoyempleabilida" target="_blank" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/talento-y-empleabilidad" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required placeholder=" ">
+                            <label for="name">Nombre completo</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required placeholder=" ">
+                            <label for="email">Correo electrónico</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder=" ">
+                            <label for="phone">Teléfono (opcional)</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="interest" name="interest" required>
+                                <option value="">Selecciona una opción</option>
+                                <option value="mentoria">Mentoría personal</option>
+                                <option value="academy-personas">Academy Personas</option>
+                                <option value="gestion-talento">Gestión de Talento</option>
+                                <option value="academy-empresas">Academy Empresas</option>
+                                <option value="outplacement">Outplacement</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                            <label for="interest">¿En qué estás interesado/a?</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                            <label for="message">Mensaje</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Enviar mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="45" fill="#f19d07"/>
+                        <path d="M30 35h40v8H30z" fill="#000"/>
+                        <path d="M45 43h10v25h-10z" fill="#000"/>
+                    </svg>
+                    <span>Talento y Empleabilidad</span>
+                </div>
+                <p class="footer-tagline">Desarrollamos talento, transformamos vidas</p>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/talentoyempleabilidad.bo" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/share/14LireoQywL" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://youtube.com/@hablemosdetalentoyempleabilida" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/talento-y-empleabilidad" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <p class="footer-copyright">&copy; 2024 Talento y Empleabilidad. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/591123456789" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
